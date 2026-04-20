@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import { Anton , Barlow } from "next/font/google";
+import { Anton, Barlow } from "next/font/google";
+import Footer from "@/components/Footer";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const anton = Anton({
   weight: "400",
@@ -31,10 +33,11 @@ export default function RootLayout({
       lang="en"
       className={`${anton.className} ${barlow.className}  h-full antialiased`}
     >
-      
       <body className="min-h-full max-w-screen flex flex-col ">
         <Navbar />
-        {children}
+        <SmoothScroll>{children}</SmoothScroll>
+
+        <Footer />
       </body>
     </html>
   );

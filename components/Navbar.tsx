@@ -48,15 +48,15 @@ export default function Navbar() {
       {/* TOP NAVBAR */}
       <div className="fixed top-0 z-50 w-full ">
         <div className="flex justify-between items-center container mx-auto py-4">
-
-          <Image
-            src="https://cdn.prod.website-files.com/65b78ba82104f6788b2a990f/65b7a313b2c07d242b833ffb_Vector%20(1).svg"
-            width={200}
-            height={200}
-            alt="logo"
-            className="w-24"
-          />
-
+          <Link href={"/"}>
+            <Image
+              src="https://cdn.prod.website-files.com/65b78ba82104f6788b2a990f/65b7a313b2c07d242b833ffb_Vector%20(1).svg"
+              width={200}
+              height={200}
+              alt="logo"
+              className="w-24"
+            />
+          </Link>
           {/* Toggle Button */}
           <button
             onClick={() => setOpen(!open)}
@@ -80,11 +80,10 @@ export default function Navbar() {
         <div className="absolute inset-0 bg-black/40"></div>
 
         <div className="relative container mx-auto grid grid-cols-1 md:grid-cols-2 h-full items-center">
-
           {/* LEFT */}
           <div className="flex flex-col gap-6 z-10 pl-[10%] md:pl-0 xl:pl-[20%]">
             {navlink.map((item, index) => (
-              <Link href={item.link} key={index}>
+              <Link href={item.link} key={index} onClick={()=>setOpen(false)}>
                 <span
                   onMouseEnter={() => setActiveImage(item.image)}
                   className="text-3xl md:text-6xl font-bold text-white/70 cursor-pointer transition duration-300 hover:text-primary hover:translate-x-2 anton "

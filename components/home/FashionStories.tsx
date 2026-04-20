@@ -45,7 +45,7 @@ export default function FashionStories() {
     <div className="bg-background py-30 ">
       <div className="container mx-auto  space-y-5">
         <motion.h1
-          className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight text-[#1f3b6d] anton"
+          className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight  bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton"
           variants={item}
           initial="hidden"
           whileInView="show"

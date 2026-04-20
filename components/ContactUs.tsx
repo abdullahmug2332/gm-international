@@ -17,16 +17,16 @@ export default function ContactUs() {
   });
 
   // ✅ animation values
-  const y = useTransform(scrollYProgress, [0, 0.7, 1], [900, 0, 0]);
+  const y = useTransform(scrollYProgress, [0, 0.7], [900, 0]);
   const scale = useTransform(scrollYProgress, [0, 1], [0.95, 1]);
 
   return (
     <>
-      <div ref={ref} className="hidden lg:block bg-background min-h-[250vh]">
+      <div ref={ref} className="hidden lg:block bg-background min-h-[150vh]">
         <div className="pt-30 container mx-auto flex flex-col lg:flex-row items-center gap-10 sticky top-0 mb-[-8%]">
           {/* LEFT CONTENT */}
           <div className="md:w-[25%]">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight text-[#1f3b6d] anton">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight  bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton">
               DROP US A LINE!
             </h1>
 
@@ -38,7 +38,7 @@ export default function ContactUs() {
           </div>
 
           {/* RIGHT CONTENT (ANIMATED) */}
-          <motion.div style={{ y, scale }} className="md:w-[50%] relative transition-all duration-700">
+          <motion.div style={{ y, scale }} className="md:w-[50%] relative ">
             <Image
               src={img}
               width={700}

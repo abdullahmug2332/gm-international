@@ -57,7 +57,10 @@ export default function Home6() {
 
   return (
     <>
-      <section ref={ref} className="hidden lg:block w-full bg-background py-20 min-h-[300vh]">
+      <section
+        ref={ref}
+        className="hidden lg:block w-full bg-background py-20 min-h-[300vh]"
+      >
         <div className="container mx-auto flex flex-col lg:flex-row  items-center justify-between gap-12 sticky top-0 h-screen">
           {/* LEFT CONTENT (ANIMATED) */}
           <motion.div
@@ -67,7 +70,7 @@ export default function Home6() {
             animate="show"
           >
             <motion.h1
-              className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight text-[#1f3b6d] anton"
+              className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight  bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton"
               variants={item}
             >
               {data.heading}
@@ -119,7 +122,6 @@ export default function Home6() {
               />
             </motion.div>
           </div>
-          
         </div>
       </section>
       <section className="block lg:hidden w-full bg-background py-20  ">
@@ -143,7 +145,6 @@ export default function Home6() {
             </div>
           </motion.div>
 
-        
           <div className="block lg:hidden flex-1 flex justify-center relative mt-2 w-full">
             <motion.div className="relative mt-1 w-full">
               <Image

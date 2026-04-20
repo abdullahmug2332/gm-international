@@ -1,5 +1,3 @@
-import Footer from "@/components/Footer";
-import ContactUs from "@/components/home/ContactUs";
 import FashionStories from "@/components/home/FashionStories";
 import Hero from "@/components/home/Hero";
 import Home3 from "@/components/home/Home3";
@@ -20,8 +18,6 @@ export default function Home() {
      <Home6/>
      <IconMarquee2/>
      <FashionStories/>
-     <ContactUs/>
-     <Footer/>
     </>
   );
 }
