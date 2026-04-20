@@ -17,16 +17,15 @@ export default function Map() {
   const textOpacity = useTransform(scrollYProgress, [0, 0.5, 1], [1, 0, 0]);
 
   const mapScale = useTransform(scrollYProgress, [0, 0.5, 1], [0, 1, 1]);
-  // const mapOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 
   return (
-    <div ref={ref} className="h-[300vh] bg-white py-30">
+    <div ref={ref} className="h-[200vh] bg-white py-30">
       {/* STICKY SECTION */}
       <div className="sticky top-0 h-screen flex flex-col items-center justify-center overflow-hidden">
         {/* TEXT */}
         <motion.p
           style={{ scale: textScale, opacity: textOpacity }}
-          className="font-semibold text-lg text-center lg:w-[65%] mx-auto px-4"
+          className="font-semibold text-lg text-center lg:w-[65%] mx-auto px-4 transition-all  "
         >
           INDULGE IN YEAR-ROUND DENIM STYLE WITH SAMAD APPAREL, A TOP DENIM
           MANUFACTURER IN  <br />PAKISTAN AND PART OF SAMAD GROUP OF INDUSTRIES. WE
@@ -37,7 +36,7 @@ export default function Map() {
         {/* MAP */}
         <motion.div
           style={{ scale: mapScale}}
-          className="mt-10 w-full flex justify-center"
+          className="mt-10 w-full flex justify-center transition-all"
         >
           <Image
             src="/map.png"

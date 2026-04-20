@@ -65,7 +65,7 @@ export default function Home5() {
 
   return (
     <>
-      <section ref={ref} className="hidden lg:block w-full bg-background py-20 min-h-[1000vh]">
+      <section ref={ref} className="hidden lg:block w-full bg-background py-20 min-h-[400vh]">
         <div className="container mx-auto flex flex-col lg:flex-row  items-center justify-between gap-12 sticky top-0 h-screen">
           {/* LEFT CONTENT (ANIMATED) */}
           <motion.div
@@ -93,7 +93,7 @@ export default function Home5() {
           <div className="flex-1 flex justify-center relative h-[500px] ">
             <motion.div
               style={{ y: img1Y, rotate: deg1Y }}
-              className="absolute  w-full"
+              className="absolute  w-full transition-all duration-700"
             >
               <Image
                 src={data.img1}
@@ -106,7 +106,7 @@ export default function Home5() {
 
             <motion.div
               style={{ y: img2Y, rotate: deg2Y }}
-              className="absolute  w-full"
+              className="absolute  w-full transition-all  duration-700"
             >
               <Image
                 src={data.img2}
@@ -119,7 +119,7 @@ export default function Home5() {
 
             <motion.div
               style={{ y: img3Y, rotate: deg3Y }}
-              className="absolute  w-full"
+              className="absolute  w-full transition-all  duration-700"
             >
               <Image
                 src={data.img3}
@@ -132,7 +132,7 @@ export default function Home5() {
 
             <motion.div
               style={{ y: img4Y, rotate: deg4Y }}
-              className="absolute  w-full"
+              className="absolute  w-full  duration-700"
             >
               <Image
                 src={data.img4}

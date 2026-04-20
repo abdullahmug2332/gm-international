@@ -22,7 +22,7 @@ export default function ContactUs() {
 
   return (
     <>
-      <div ref={ref} className="hidden lg:block bg-background min-h-[300vh]">
+      <div ref={ref} className="hidden lg:block bg-background min-h-[250vh]">
         <div className="pt-30 container mx-auto flex flex-col lg:flex-row items-center gap-10 sticky top-0 mb-[-8%]">
           {/* LEFT CONTENT */}
           <div className="md:w-[25%]">
@@ -38,7 +38,7 @@ export default function ContactUs() {
           </div>
 
           {/* RIGHT CONTENT (ANIMATED) */}
-          <motion.div style={{ y, scale }} className="md:w-[50%] relative">
+          <motion.div style={{ y, scale }} className="md:w-[50%] relative transition-all duration-700">
             <Image
               src={img}
               width={700}
