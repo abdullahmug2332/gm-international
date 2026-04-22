@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 
@@ -42,15 +42,41 @@ export default function Navbar() {
 
   const [activeImage, setActiveImage] = useState(navlink[0].image);
   const [open, setOpen] = useState(false);
+  const [showNav, setShowNav] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // scroll down
+        setShowNav(false);
+      } else {
+        // scroll up
+        setShowNav(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
 
   return (
     <div>
       {/* TOP NAVBAR */}
-      <div className="fixed top-0 z-50 w-full ">
+      <div
+        className={`fixed top-0 z-50 w-full transition-transform duration-500 ${
+          showNav ? "translate-y-0" : "-translate-y-full"
+        }`}
+      >
         <div className="flex justify-between items-center container mx-auto py-4">
           <Link href={"/"}>
             <Image
-              src="https://cdn.prod.website-files.com/65b78ba82104f6788b2a990f/65b7a313b2c07d242b833ffb_Vector%20(1).svg"
+              src="/gm-logo.png"
               width={200}
               height={200}
               alt="logo"
@@ -83,7 +109,7 @@ export default function Navbar() {
           {/* LEFT */}
           <div className="flex flex-col gap-6 z-10 pl-[10%] md:pl-0 xl:pl-[20%]">
             {navlink.map((item, index) => (
-              <Link href={item.link} key={index} onClick={()=>setOpen(false)}>
+              <Link href={item.link} key={index} onClick={() => setOpen(false)}>
                 <span
                   onMouseEnter={() => setActiveImage(item.image)}
                   className="text-3xl md:text-6xl font-bold text-white/70 cursor-pointer transition duration-300 hover:text-primary hover:translate-x-2 anton "

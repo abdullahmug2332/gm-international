@@ -1,31 +1,62 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
 :root {
-  --background: #F2F2F2;
-  --foreground: #171717;
-  --primary:#254A87;
+  --primary: #254a87;
+  --background: #f2f2f2; 
+  --foreground: oklch(24.354% 0.00003 271.152);
+  --radius: 0.625rem;
+  --border: oklch(92.494% 0.00011 271.152);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
 }
 
 @theme inline {
   --color-primary: var(--primary);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
 }
-*{
-box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
 }
-body{
+
+body {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
+
   @apply bg-background text-foreground;
-  
 }
-.container{
-  @apply w-[95%] md:w-[90%]! lg:w-[80%]! 
+.container {
+  @apply w-[95%] md:w-[90%]! lg:w-[80%]!;
 }
-.anton{
+.anton {
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
 }

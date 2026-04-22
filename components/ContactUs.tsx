@@ -17,12 +17,12 @@ export default function ContactUs() {
   });
 
   // ✅ animation values
-  const y = useTransform(scrollYProgress, [0, 0.7], [900, 0]);
+  const y = useTransform(scrollYProgress, [0, 0.7], [1000, 0]);
   const scale = useTransform(scrollYProgress, [0, 1], [0.95, 1]);
 
   return (
     <>
-      <div ref={ref} className="hidden lg:block bg-background min-h-[150vh]">
+      <div ref={ref} className="hidden lg:block bg-background min-h-[200vh]">
         <div className="pt-30 container mx-auto flex flex-col lg:flex-row items-center gap-10 sticky top-0 mb-[-8%]">
           {/* LEFT CONTENT */}
           <div className="md:w-[25%]">
