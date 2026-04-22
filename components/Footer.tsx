@@ -12,7 +12,7 @@ import ContactUs from "./ContactUs";
 import { motion } from "framer-motion";
 
 export default function Footer() {
-  const text = "SAMAD APPAREL";
+  const text = "GMAN INTERNALTIONAL";
 
   const pathname = usePathname();
   const isContactPage = pathname === "/contact";
@@ -62,7 +62,7 @@ export default function Footer() {
             {/* Logo and Social Icons */}
             <div className="flex flex-col items-center gap-8 sm:gap-10 mb-12 sm:mb-16 lg:mb-20 order-1  ">
               {/* Logo */}
-              <div className="text-[12vw] anton font-[500] text-white flex flex-wrap justify-center">
+              <div className="text-[9vw] anton font-[500] text-white flex flex-wrap justify-center">
                 {text.split("").map((char, i) => (
                   <motion.span
                     key={i}
@@ -139,7 +139,7 @@ export default function Footer() {
                 </p>
                 <div className="space-y-2 text-sm sm:text-base">
                   <p>+92 (42) 3545 7398 & 9</p>
-                  <p>marketing@samadapparel.com</p>
+                  <p>marketing@gmansinternationals.com</p>
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function Footer() {
                 </p>
                 <div className="space-y-2 text-sm sm:text-base">
                   <p>+31 6 80104906</p>
-                  <p>eu.sales@samadapparel.com</p>
+                  <p>eu.sales@gmansinternationals.com</p>
                 </div>
               </div>
               {/* Building Image */}
@@ -179,7 +179,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6 sm:gap-4 pb-3 text-white">
             {/* Left: Logo Icon */}
             <Image
-              src="/logo-white.svg"
+              src="/gm-logo.png"
               width={200}
               height={200}
               alt="logo"
@@ -188,7 +188,7 @@ export default function Footer() {
 
             {/* Center: Copyright */}
             <div className="text-center text-xs sm:text-sm">
-              <p>COPYRIGHT © SAMAD APPAREL. ALL RIGHTS RESERVED</p>
+              <p>COPYRIGHT © GMAN INTERNALTIONAL. ALL RIGHTS RESERVED</p>
             </div>
 
             {/* Right: Powered By */}

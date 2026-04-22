@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function Hero() {
-  const text = "SAMAD APPAREL";
+  const text = "GMAN INTERNATIONAL ";
   const [visibleLetters, setVisibleLetters] = useState(0);
 
   useEffect(() => {
@@ -49,7 +49,7 @@ export default function Hero() {
       {/* CONTENT */}
       <div className="relative z-10 flex items-end justify-center h-[85%] pb-20">
         <h1 className="text-white font-bold text-center w-[70%] leading-none">
-          <span className="block text-[10vw] uppercase anton">
+          <span className="block text-[8vw] uppercase anton">
             {text.split("").map((char, index) => (
               <span
                 key={index}

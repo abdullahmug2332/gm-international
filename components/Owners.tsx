@@ -4,8 +4,8 @@ export default function Owners() {
   const messages = [
     {
       title: "CEO’s Message:",
-      subtitle: "(SAMAD GROUP OF INDUSTRIES)",
-      message: `Our target is to transform Samad Group into an organization that offers more than customized solutions and quality products.
+      subtitle: "(GMAN GROUP OF INDUSTRIES)",
+      message: `Our target is to transform Gman Group into an organization that offers more than customized solutions and quality products.
 
 As a company, we aim to work with reliable partners, to enhance our social enterprise, add values, improve lives and give back to the communities. I am grateful to everyone who kept sharing this passion with us.`,
       name: "ABDUL SAMI",
@@ -15,8 +15,8 @@ As a company, we aim to work with reliable partners, to enhance our social enter
     },
     {
       title: "DIRECTOR’s MESSAGE",
-      subtitle: "(SAMAD APPAREL)",
-      message: `Through our commitment and dedication, Samad Apparel has grown into a
+      subtitle: "(GMAN INTERNALTIONAL)",
+      message: `Through our commitment and dedication, gman international has grown into a
 socially & environmentally responsible, sustainable and ecofriendly platform to
 meet the customised needs of the denim world.
 
@@ -24,7 +24,7 @@ I see our success not limited to just achieving customers’ satisfaction but al
 ensuring equal opportunities for women in all areas along with fair, safe and
 healthy working conditions for all.
 
-I just wanted to thank you all for your efforts in making Samad Apparel a reliable
+I just wanted to thank you all for your efforts in making gman international a reliable
 organization for everyone.`,
       name: "IZZA SAMI",
       image: "https://cdn.prod.website-files.com/65b78ba82104f6788b2a990f/65fc0097c6f95e16753f57df_Rectangle%20229.png",

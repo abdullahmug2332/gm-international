@@ -27,8 +27,8 @@ export default function Map() {
           style={{ scale: textScale, opacity: textOpacity }}
           className="font-semibold text-lg text-center lg:w-[65%] mx-auto px-4 transition-all  "
         >
-          INDULGE IN YEAR-ROUND DENIM STYLE WITH SAMAD APPAREL, A TOP DENIM
-          MANUFACTURER IN  <br />PAKISTAN AND PART OF SAMAD GROUP OF INDUSTRIES. WE
+          INDULGE IN YEAR-ROUND DENIM STYLE WITH GMAN INTERNATIONAL, A TOP DENIM
+          MANUFACTURER IN  <br />PAKISTAN AND PART OF GMAN GROUP OF INDUSTRIES. WE
           LEAD WITH INNOVATIVE DENIM DESIGNS, SETTING TRENDS AND DELIVERING
           UNMATCHED QUALITY EVERY SEASON.
         </motion.p>

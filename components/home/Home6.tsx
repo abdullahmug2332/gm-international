@@ -14,7 +14,7 @@ export default function Home6() {
 
     heading: "AND SOCIAL RESPONSIBILITY",
     para1:
-      "Our initiatives extend beyond fashion, reaching into the heart of communities. Building on the foundations laid by our CSR programs at Samad Group, we continue to champion causes that matter. Whether supporting education, healthcare, or environmental sustainability, our commitment remains unwavering. We believe in fashion with a purpose, and our CSR endeavors echo our dedication to making a positive impact on the world, one stitch at a time.",
+      "Our initiatives extend beyond fashion, reaching into the heart of communities. Building on the foundations laid by our CSR programs at Gman Group, we continue to champion causes that matter. Whether supporting education, healthcare, or environmental sustainability, our commitment remains unwavering. We believe in fashion with a purpose, and our CSR endeavors echo our dedication to making a positive impact on the world, one stitch at a time.",
   };
 
   // ✅ TEXT ANIMATION VARIANTS

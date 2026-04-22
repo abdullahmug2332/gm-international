@@ -14,11 +14,11 @@ export default function Home5() {
     img4: "https://cdn.prod.website-files.com/65b78ba82104f6788b2a990f/664f3ffd8077798e52e6ea18_Group%20708.png",
     heading: "WE’RE BIG ON SUSTAINABILITY",
     para1:
-      "At Samad Apparel, sustainability is at the heart of our production process. We focus on creating premium woven garments in Pakistan, ensuring eco-friendly practices like water conservation through projects such as the Time and Water Efficiency initiative.",
+      "At Gman International, sustainability is at the heart of our production process. We focus on creating premium woven garments in Pakistan, ensuring eco-friendly practices like water conservation through projects such as the Time and Water Efficiency initiative.",
     para2:
       "As an Oeko-Tex 100 certified facility, our Made in Green labeled denim guarantees eco-friendly production, ethical working conditions, and optimal health and safety standards. Our commitment to sustainability is not just a pledge; it's a conscious choice shaping a greener future.",
     para3:
-      "Samad Apparel and Zi Solar (Pvt) Ltd established a partnership, unveiling 1.024 MW Solar Project to power a sustainable future and redefine Pakistan’s Energy Landscape.",
+      "Gman International and Zi Solar (Pvt) Ltd established a partnership, unveiling 1.024 MW Solar Project to power a sustainable future and redefine Pakistan’s Energy Landscape.",
     para4:
       "The venture aims to reduce approximately 832 metric tons of carbon emissions annually and generate 1532 MWh of clean energy.",
   };
