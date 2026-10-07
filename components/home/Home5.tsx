@@ -75,7 +75,7 @@ export default function Home5() {
             animate="show"
           >
             <motion.h1
-              className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight  bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton"
+              className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight  bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton"
               variants={item}
             >
               {data.heading}

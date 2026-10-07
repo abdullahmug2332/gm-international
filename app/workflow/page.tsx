@@ -200,21 +200,21 @@ export default function page() {
                       alt="icon"
                     />
                     <div className="text-start w-[85%] flex items-end gap-3">
-                      <p className="bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton text-[10vw] leading-[90%]">
+                      <p className="bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton text-[10vw] leading-[90%]">
                         {d.number}.
                       </p>
                       <div
                         className={`h-full flex flex-col ${d.title.length > 1 ? "justify-between" : "justify-end"}`}
                       >
                         <p
-                          className="bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton text-[4.2vw] leading-[90%]"
+                          className="bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton text-[4.2vw] leading-[90%]"
                           style={{ whiteSpace: "pre-line" }}
                         >
                           {d.title[0]}
                         </p>
                         {d.title[1] && (
                           <p
-                            className="bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton text-[4.2vw] leading-[90%]"
+                            className="bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton text-[4.2vw] leading-[90%]"
                             style={{ whiteSpace: "pre-line" }}
                           >
                             {d.title[1]}
@@ -296,21 +296,21 @@ export default function page() {
                 viewport={{ once: true, amount: 0.2 }}
               >
                 <div className="flex items-end justify-start gap-3">
-                  <p className="bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton text-[10vw] leading-[90%]">
+                  <p className="bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton text-[10vw] leading-[90%]">
                     {d.number}.
                   </p>
                   <div
                     className={`h-full flex flex-col gap-1 ${d.title.length > 1 ? "justify-between" : "justify-end"}`}
                   >
                     <p
-                      className={`bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton ${d.title.length > 1 ? "text-[5vw]" : "text-[10vw]"} text-[5vw] leading-[90%]`}
+                      className={`bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton ${d.title.length > 1 ? "text-[5vw]" : "text-[10vw]"} text-[5vw] leading-[90%]`}
                       style={{ whiteSpace: "pre-line" }}
                     >
                       {d.title[0]}
                     </p>
                     {d.title[1] && (
                       <p
-                        className="bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton text-[5vw] leading-[90%]"
+                        className="bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton text-[5vw] leading-[90%]"
                         style={{ whiteSpace: "pre-line" }}
                       >
                         {d.title[1]}

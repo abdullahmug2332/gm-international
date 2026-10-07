@@ -12,7 +12,7 @@ import ContactUs from "./ContactUs";
 import { motion } from "framer-motion";
 
 export default function Footer() {
-  const text = "GMAN INTERNALTIONAL";
+  const text = "GMAN INTERNALTIONAL"; 
 
   const pathname = usePathname();
   const isContactPage = pathname === "/contact";

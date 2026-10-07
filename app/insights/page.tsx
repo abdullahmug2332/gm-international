@@ -96,7 +96,7 @@ export default function page() {
               />
             </div>
 
-            <div className="w-full lg:w-1/2 bg-gradient-to-br from-[#13171C] to-primary text-white p-5 flex flex-col justify-center">
+            <div className="w-full lg:w-1/2 bg-gradient-to-br from-[#414141] to-primary text-white p-5 flex flex-col justify-center">
               <p className="text-[1.5vw] text-white/80">{data.subtitle}</p>
               <p className="anton text-[1.5vw] font-light">{data.title}</p>
               <p className="font-light">{data.des}</p>
@@ -105,14 +105,14 @@ export default function page() {
           </div>
         </div>
 
-        <p className="anton bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent text-[11vw] lg:text-[6vw] font-light relative lg:bottom-[80px] lg:pl-6">
+        <p className="anton bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent text-[11vw] lg:text-[6vw] font-light relative lg:bottom-[80px] lg:pl-6">
           INSIGHTS
         </p>
       </div>
 
       {/* BLOG GRID */}
       <div className="container mx-auto py-30">
-        <p className="anton bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent text-[7vw] lg:text-[3vw] font-light">
+        <p className="anton bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent text-[7vw] lg:text-[3vw] font-light">
           MOST RECENT
         </p>
 
@@ -139,7 +139,7 @@ export default function page() {
                 className="w-full"
               />
 
-              <div className="flex flex-col flex-1 gap-4 bg-gradient-to-br from-[#071730] to-primary rounded-2xl px-5 py-6 relative bottom-5">
+              <div className="flex flex-col flex-1 gap-4 bg-gradient-to-br from-[#414141]  to-primary rounded-2xl px-5 py-6 relative bottom-5">
                 <p className="text-white anton text-2xl font-[500]">
                   {blog.title}
                 </p>

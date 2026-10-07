@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function Page() {
   const [mode, setMode] = useState("contact");
   const img =
-    "https://cdn.prod.website-files.com/65b78ba82104f6788b2a990f/65dc5ac8f2daed0aa686e698_Jacket%20(3).png";
+    "/jacketc.png";
   const buttonClass = (type: String) =>
     `anton font-bold text-[2vw] px-15 py-2 rounded-xl cursor-pointer transition ${
       mode === type
@@ -36,7 +36,7 @@ export default function Page() {
                 CAREERS
               </button>
             </div>
-            <h1 className="lg:mt-5 text-[9vw] font-black uppercase leading-tight bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton">
+            <h1 className="lg:mt-5 text-[9vw] font-black uppercase leading-tight bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton">
               DROP US A LINE!
             </h1>
           </div>
@@ -44,15 +44,15 @@ export default function Page() {
             <motion.div className="w-full lg:w-[55%] relative">
               <Image
                 src={img}
-                width={700}
-                height={700}
+                width={1000}
+                height={1000}
                 alt="jacket"
                 className="w-full h-auto"
                 priority
               />
 
               {/* FORM */}
-              <div className="absolute w-[60%] top-[10%] left-[50%] translate-x-[-50%]">
+              <div className="absolute w-[60%] top-[15%] left-[50%] translate-x-[-50%]">
                 <div className="flex gap-2">
                   <input
                     type="text"

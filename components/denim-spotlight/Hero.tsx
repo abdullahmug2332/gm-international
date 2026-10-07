@@ -41,7 +41,7 @@ export default function Hero() {
           variants={textVariant}
           initial="hidden"
           animate="show"
-          className="lg:flex-1 text-[15vw] lg:text-[10vw] font-black uppercase leading-tight bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton border "
+          className="lg:flex-1 text-[15vw] lg:text-[10vw] font-black uppercase leading-tight bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton border "
         >
           DENIM SPOTLIGHT
         </motion.p>

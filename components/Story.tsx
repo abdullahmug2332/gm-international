@@ -95,7 +95,7 @@ export default function Story() {
               className="flex w-full  min-h-[550px] h-[65vh]! "
             >
               <div className=" min-w-screen flex justify-center items-center ">
-                <p className="anton text-[10vw] uppercase font-light bg-gradient-to-r from-primary to-[#13171C] bg-clip-text text-transparent">
+                <p className="anton text-[10vw] uppercase font-light bg-gradient-to-r from-primary to-[#414141] bg-clip-text text-transparent">
                   our story
                 </p>
               </div>
@@ -181,7 +181,7 @@ export default function Story() {
         <div className="min-h-[93vh] flex flex-col gap-16 bg-[url('https://cdn.prod.website-files.com/65b78ba82104f6788b2a990f/65dc9d22371f1b7673c07aa3_Threads.png')] bg-top bg-contain bg-no-repeat">
           {/* Heading */}
           <div className="w-full flex justify-center container mx-auto">
-            <p className="anton text-[12vw] uppercase font-light bg-gradient-to-r from-primary to-[#13171C] bg-clip-text text-transparent">
+            <p className="anton text-[12vw] uppercase font-light bg-gradient-to-r from-primary to-[#414141] bg-clip-text text-transparent">
               our story
             </p>
           </div>

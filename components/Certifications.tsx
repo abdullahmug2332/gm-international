@@ -44,7 +44,7 @@ export default function Certifications() {
          <div className="text-background">
             1
         </div>
-         <div className="text-background text-primary bg-gradient-to-r from-primary to-[#13171C] bg-clip-text text-transparent col-span-2 md:col-span-3 text-[6.7vw] anton font-light text-center">
+         <div className="text-background text-primary bg-gradient-to-r from-primary to-[#414141] bg-clip-text text-transparent col-span-2 md:col-span-3 text-[6.7vw] anton font-light text-center">
             CERTIFICATIONS
         </div>
         <Image

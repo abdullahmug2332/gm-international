@@ -8,7 +8,7 @@ export default function ContactUs() {
   const ref = useRef<HTMLDivElement>(null);
 
   const img =
-    "https://cdn.prod.website-files.com/65b78ba82104f6788b2a990f/65dc5ac8f2daed0aa686e698_Jacket%20(3).png";
+    "/jacketc.png";
 
   // ✅ scroll tracking
   const { scrollYProgress } = useScroll({
@@ -26,7 +26,7 @@ export default function ContactUs() {
         <div className="pt-30 container mx-auto flex flex-col lg:flex-row items-center gap-10 sticky top-0 mb-[-8%]">
           {/* LEFT CONTENT */}
           <div className="md:w-[25%]">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight  bg-gradient-to-br from-primary to-[#13171C] bg-clip-text text-transparent anton">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black uppercase leading-tight  bg-gradient-to-br from-primary to-[#414141] bg-clip-text text-transparent anton">
               DROP US A LINE!
             </h1>
 
@@ -49,7 +49,7 @@ export default function ContactUs() {
             />
 
             {/* FORM */}
-            <div className="absolute w-[60%] top-[10%] left-[50%] translate-x-[-50%]">
+            <div className="absolute w-[60%] top-[13%] left-[50%] translate-x-[-50%]">
               <input
                 type="text"
                 placeholder="YOUR NAME"
